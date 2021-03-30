@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles Posts</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>ASAC
+        <nav  >
+            <ul class="navli">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Contact</li></a> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form action="" id="forminfo" class="forminfo">
+
+            <label for="">Author Name</label>
+            <input type="text" name="authorname">
+            <br>
+
+            <label for="">Artical Title</label>
+            <input type="text" name="articletitle">
+            <br>
+
+            <label for="">Subject</label>
+            <select name="subject" id="">
+                <option value="">Select</option>
+                <option value="Coding">Coding</option>
+                <option value="3D printing">3D printing</option>
+                <option value="Cyber security">Cyber security</option>
+                <option value="AI">AI</option>
+            </select>
+            <br>
+
+            <label for="">content</label> <br>
+            <input type="textarea" name="content" id="" style =" width: 280px ; height: 150px">
+
+            <br>
+
+            <label for="">Date:</label>
+
+            <input type="date" name="date">
+            <br>
+
+            <input type="submit" value="SUBMIT" id="submit" class="submit">
+
+
+
+        </form>
+
+        <br>
+
+        <article id="article" class="article"></article>
+
+
+    </main>
+
+    
+    
+</body>
+
+<footer>&copy; All Rights RESERVED ASAC 2021</footer>
+<script src="./js/app.js"></script>
+</html>

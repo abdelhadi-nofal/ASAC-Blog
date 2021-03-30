@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: rgba(96, 96, 96,0.6);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.navli{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+.navli li{
+    margin-right: 20px;
+
+}
+
+
+.article{
+    float: right;
+    background-color: rgba(96, 96, 96,0.6);
+    padding: 100px;
+    padding-top: 50px;
+    margin-right: 150px;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-top: -330px;
+    margin-bottom: 50px;
+
+}
+
+.forminfo{
+    background-color: rgba(96, 96, 96,0.6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 900px;
+    margin-left: 100px;
+    padding-left: 50px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#submit{
+    margin-left: 50px;
+    margin-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgba(96, 96, 96,0.6);
+    margin-top: 1000px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
